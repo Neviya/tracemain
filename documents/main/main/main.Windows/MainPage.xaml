@@ -5,18 +5,21 @@
     xmlns:local="using:main"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
+    mc:Ignorable="d"
+       Height="950" Width="1400">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,0,0,0
           ">
-        <Button Grid.Column="0"  Content="Database" FontSize="40" Margin="79,562,0,125" Background="#FF37C1D0" Height="80" />
-        <Button  Content="Add a new person" FontSize="40" Margin="79,400,0,290" Background="#FF37C1D0" Height="80" />
-        <Button Content="Authentication&#xD;&#xA;Authentication" FontSize="40" Margin="79,239,0,447" Background="#FF37C1D0" Height="80" />
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="259,24,0,0" FontSize="60" Foreground="#FF37C1D0" TextWrapping="Wrap" VerticalAlignment="Top" Height="69" Width="325" TextAlignment="Center">
-            <Run Text="      "/>
-            <Run Text="TRACE"/>
+        <Button Grid.Column="0"  Content="Database" FontSize="36" Margin="77,727,0,143" Background="#FF37C1D0" Height="80" Width="321" FontFamily="Arial" FontWeight="Normal" />
+        <Image x:Name="image" Height="236" Margin="308,85,0,0" VerticalAlignment="Top" Width="237" Source="Assets/trace.png" HorizontalAlignment="Left"/>
+        <Button Grid.Column="0"  Content="Authentication&#xD;&#xA;" FontSize="36" Margin="82,392,0,478" Background="#FF37C1D0" Height="80" Width="321" FontFamily="Arial" FontWeight="Normal" />
+        <Button Grid.Column="0"  Content="Add a new person" FontSize="36" Margin="82,557,0,313" Background="#FF37C1D0" Height="80" Width="321" FontFamily="Arial" FontWeight="Normal" />
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="240" Margin="400,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="645" FontSize="72" FontFamily="Arial" TextAlignment="Center" Foreground="#FF37C1D0">
+            <Run/>
+            <LineBreak/>
+            <Run FontWeight="Bold" FontSize="80" Text="TRACE"/>
         </TextBlock>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="86" Margin="178,24,0,0" VerticalAlignment="Top" Width="100" Source="Assets/trace.png"/>
+        <Image x:Name="image1" HorizontalAlignment="Left" Height="550" Margin="605,325,0,0" VerticalAlignment="Top" Width="680" Source="Assets/gait.jpg"/>
 
     </Grid>
 </Page>

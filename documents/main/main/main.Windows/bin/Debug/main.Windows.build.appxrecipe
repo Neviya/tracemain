@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>LAPTOP-BHIQEPCM</Machine>
-    <WindowsUser>nevp</WindowsUser>
+    <Machine>DESKTOP-JFM5G33</Machine>
+    <WindowsUser>Mini</WindowsUser>
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetOsVersion>6.3</TargetOsVersion>
     <TargetOsDescription>Windows 8.1</TargetOsDescription>
@@ -10,51 +10,55 @@
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>3f50a70e-3509-48af-b82e-ade42a259ddc</PackageIdentityName>
     <PackageIdentityPublisher>CN=nevp</PackageIdentityPublisher>
-    <IntermediateOutputPath>c:\users\nevp\documents\visual studio 2015\Projects\main\main\main.Windows\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Mini\tracemain\documents\main\main\main.Windows\obj\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\users\nevp\documents\visual studio 2015\Projects\main\main\main.Windows\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Mini\tracemain\documents\main\main\main.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\users\nevp\documents\visual studio 2015\Projects\main\main\main.Windows\bin\Debug\main.Windows.exe">
+    <AppxPackagedFile Include="C:\Users\Mini\tracemain\documents\main\main\main.Windows\bin\Debug\main.Windows.exe">
       <PackagePath>main.Windows.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nevp\documents\visual studio 2015\Projects\main\main\main.Windows\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Mini\tracemain\documents\main\main\main.Windows\Assets\gait.jpg">
+      <PackagePath>Assets\gait.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mini\tracemain\documents\main\main\main.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nevp\documents\visual studio 2015\Projects\main\main\main.Windows\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Mini\tracemain\documents\main\main\main.Windows\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nevp\documents\visual studio 2015\Projects\main\main\main.Windows\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Mini\tracemain\documents\main\main\main.Windows\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nevp\documents\visual studio 2015\Projects\main\main\main.Windows\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Mini\tracemain\documents\main\main\main.Windows\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nevp\documents\visual studio 2015\Projects\main\main\main.Windows\Assets\trace.png">
+    <AppxPackagedFile Include="C:\Users\Mini\tracemain\documents\main\main\main.Windows\Assets\trace.png">
       <PackagePath>Assets\trace.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nevp\documents\visual studio 2015\Projects\main\main\main.Windows\bin\Debug\main.Windows.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Mini\tracemain\documents\main\main\main.Windows\bin\Debug\main.Windows.xr.xml">
       <PackagePath>main.Windows.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nevp\documents\visual studio 2015\Projects\main\main\main.Windows\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Mini\tracemain\documents\main\main\main.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nevp\documents\visual studio 2015\Projects\main\main\main.Windows\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Mini\tracemain\documents\main\main\main.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\nevp\documents\visual studio 2015\Projects\main\main\main.Windows\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Mini\tracemain\documents\main\main\main.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
