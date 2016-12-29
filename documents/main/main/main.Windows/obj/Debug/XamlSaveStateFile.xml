@@ -1,5 +1,6 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
     <LocalAssembly PathName="c:\users\nevp\documents\visual studio 2015\projects\main\main\main.windows\obj\debug\intermediatexaml\main.windows.exe" HashGuid="7920b738-4463-38fa-4d4d-ff8b847c1faf" />
+    <ReferenceAssembly PathName="c:\users\mini\desktop\tracemain\documents\main\packages\lightbuzz-vitruvius.2.0.0\lib\netcore451\x86\lightbuzz.vitruvius.dll" HashGuid="b0e40888-d8f1-6aed-6803-c34b6c436587" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

@@ -53,6 +53,9 @@
     <AppxPackagedFile Include="C:\Users\Mini\Desktop\tracemain\documents\main\main\main.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mini\Desktop\tracemain\documents\main\main\main.Windows\bin\Debug\Assets\BlankPage1.xbf">
+      <PackagePath>Assets\BlankPage1.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mini\Desktop\tracemain\documents\main\main\main.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>

@@ -156,3 +156,8 @@ C:\Users\Mini\Desktop\tracemain\documents\main\main\main.Windows\obj\Debug\quali
 C:\Users\Mini\Desktop\tracemain\documents\main\main\main.Windows\obj\Debug\qualifiers.txt.intermediate
 C:\Users\Mini\Desktop\tracemain\documents\main\main\main.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Mini\Desktop\tracemain\documents\main\main\main.Windows\obj\Debug\ProjectArchitectures.txt
+C:\Users\Mini\Desktop\tracemain\documents\main\main\main.Windows\bin\Debug\Assets\BlankPage1.xbf
+C:\Users\Mini\Desktop\tracemain\documents\main\main\main.Windows\obj\Debug\Assets\BlankPage1.g.i.cs
+C:\Users\Mini\Desktop\tracemain\documents\main\main\main.Windows\obj\Debug\Assets\BlankPage1.g.cs
+C:\Users\Mini\Desktop\tracemain\documents\main\main\main.Windows\obj\Debug\Assets\BlankPage1.xaml
+C:\Users\Mini\Desktop\tracemain\documents\main\main\main.Windows\obj\Debug\Assets\BlankPage1.xbf

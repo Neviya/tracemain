@@ -7,12 +7,12 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Height="950" Width="1400">
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
 
         <Button x:Name="backButton" Click="Back_Click"
                     Style="{StaticResource NavigationBackButtonNormalStyle}"
                     HorizontalAlignment="Center"
-                    VerticalAlignment="Center" Margin="1.875,1.761,1324.125,864.239" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Height="84" Width="74">
+                    VerticalAlignment="Center" Margin="-3.361,-1.912,1329.361,867.912" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Height="84" Width="74">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="-0.547" SkewY="0.916" TranslateX="0.003" TranslateY="0.328"/>
             </Button.RenderTransform>

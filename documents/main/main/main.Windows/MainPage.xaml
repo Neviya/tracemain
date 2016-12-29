@@ -11,10 +11,10 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,0,0,0
           ">
         <Button Grid.Column="0"  Content="Database" Click="button_Click_3" FontSize="36" Margin="77,727,0,143" Background="#FF37C1D0" Height="80" Width="321" FontFamily="Arial" FontWeight="Normal" />
-        <Image x:Name="image" Height="236" Margin="308,85,0,0" VerticalAlignment="Top" Width="237" Source="Assets/trace.png" HorizontalAlignment="Left"/>
+        <Image x:Name="image" Height="170" Margin="308,85,0,0" VerticalAlignment="Top" Width="152" Source="Assets/trace.png" HorizontalAlignment="Left"/>
         <Button Grid.Column="0"  Content="Authentication&#xA;" Click="button_Click_1" FontSize="36" Margin="82,392,0,478" Background="#FF37C1D0" Height="80" Width="321" FontFamily="Arial" FontWeight="Normal" />
         <Button Grid.Column="0"  Content="Add a new person" Click="button_Click_2" FontSize="36" Margin="82,557,0,313" Background="#FF37C1D0" Height="80" Width="321" FontFamily="Arial" FontWeight="Normal" />
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="240" Margin="400,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="645" FontSize="72" FontFamily="Arial" TextAlignment="Center" Foreground="#FF37C1D0">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="240" Margin="335,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="645" FontSize="72" FontFamily="Arial" TextAlignment="Center" Foreground="#FF37C1D0">
             <Run/>
             <LineBreak/>
             <Run FontWeight="Bold" FontSize="80" Text="TRACE"/>
