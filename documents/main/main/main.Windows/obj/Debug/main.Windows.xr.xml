@@ -24,6 +24,9 @@
       <RootProperty Name="Width" />
       <RootProperty Name="FontFamily" />
       <RootProperty Name="FontWeight" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Height" />
@@ -53,5 +56,8 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Documents.LineBreak" />
     <RootType FullName="main.MainPage" />
+    <RootType FullName="main.page1" />
+    <RootType FullName="main.Page2" />
+    <RootType FullName="main.Page3" />
   </Roots.RootTypes>
 </Roots>

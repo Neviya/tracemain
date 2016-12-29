@@ -20,35 +20,16 @@ namespace main
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class MainPage : Page
+    public sealed partial class Page2 : Page
     {
-        public MainPage()
+        public Page2()
         {
             this.InitializeComponent();
         }
 
-        private void button_Click_1(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(page1), null);
-
-        }
-
         private void button_Click_2(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Page2), null);
-
+            this.Frame.Navigate(typeof(MainPage), null);
         }
-
-
-        private void button_Click_3(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(Page3), null);
-
-        }
-
-
-
-
-
     }
 }

@@ -124,15 +124,21 @@ namespace main.main_Windows_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[3];
+            _typeNameTable = new string[6];
             _typeNameTable[0] = "main.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[3] = "main.page1";
+            _typeNameTable[4] = "main.Page2";
+            _typeNameTable[5] = "main.Page3";
 
-            _typeTable = new global::System.Type[3];
+            _typeTable = new global::System.Type[6];
             _typeTable[0] = typeof(global::main.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[3] = typeof(global::main.page1);
+            _typeTable[4] = typeof(global::main.Page2);
+            _typeTable[5] = typeof(global::main.Page3);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -168,6 +174,9 @@ namespace main.main_Windows_XamlTypeInfo
         }
 
         private object Activate_0_MainPage() { return new global::main.MainPage(); }
+        private object Activate_3_page1() { return new global::main.page1(); }
+        private object Activate_4_Page2() { return new global::main.Page2(); }
+        private object Activate_5_Page3() { return new global::main.Page3(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -192,6 +201,27 @@ namespace main.main_Windows_XamlTypeInfo
 
             case 2:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::main.main_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 3:   //  main.page1
+                userType = new global::main.main_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_3_page1;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 4:   //  main.Page2
+                userType = new global::main.main_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_4_Page2;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 5:   //  main.Page3
+                userType = new global::main.main_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_5_Page3;
+                userType.SetIsLocalType();
+                xamlType = userType;
                 break;
             }
             return xamlType;
