@@ -5,11 +5,18 @@
     xmlns:local="using:main"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
+    mc:Ignorable="d"
+    Height="950" Width="1400">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button x:Name="button" Content="back&#xD;&#xA;" Click="button_Click_1" HorizontalAlignment="Left" Margin="160,155,0,0" VerticalAlignment="Top" Height="83" Width="138" FontSize="24"/>
-        <Button x:Name="button_Copy" Content="Button" HorizontalAlignment="Left" Margin="160,330,0,0" VerticalAlignment="Top" Height="83" Width="138"/>
-
+        
+        <Button x:Name="backButton" Click="Back_Click"
+                    Style="{StaticResource NavigationBackButtonNormalStyle}"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center" Margin="1.875,1.761,1324.125,864.239" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Height="84" Width="74">
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="-0.547" SkewY="0.916" TranslateX="0.003" TranslateY="0.328"/>
+            </Button.RenderTransform>
+        </Button>
     </Grid>
 </Page>

@@ -27,19 +27,11 @@ namespace main
             this.InitializeComponent();
         }
 
-        private void button_Click_1(object sender, RoutedEventArgs e)
+       
+
+        private void Back_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MainPage), null);
-      
         }
-
-
-
-
-
-
-
-
-
     }
 }

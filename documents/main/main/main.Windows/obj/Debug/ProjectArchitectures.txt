@@ -1,1 +1,1 @@
-C:\Users\nevp\Documents\main\main\main.Windows\main.Windows.csproj;neutral
+C:\Users\Mini\Desktop\tracemain\documents\main\main\main.Windows\main.Windows.csproj;neutral

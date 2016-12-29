@@ -28,15 +28,11 @@ namespace main
         }
 
 
-        private void button_Click_3(object sender, RoutedEventArgs e)
+       
 
+        private void Back_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MainPage), null);
-
-
         }
-
-
-
     }
 }
